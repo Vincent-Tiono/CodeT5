@@ -1,0 +1,14 @@
+per_device_train_batch_size: 16
+per_device_eval_batch_size: 32
+learning_rate: 0.00005
+weight_decay: 0.0
+num_train_epochs: 5
+max_train_steps: null
+eval_train_set: false
+gradient_accumulation_steps: 2
+lr_scheduler_type: "linear"
+num_warmup_steps: 0
+warmup_ratio: null
+model_type: null
+adafactor_for_t5: true
+mixed_precision: "fp16"

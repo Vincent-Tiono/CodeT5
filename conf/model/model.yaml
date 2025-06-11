@@ -1,0 +1,14 @@
+model_name_or_path: "Salesforce/codet5-small"
+contrastive_path: null
+config_name: null
+tokenizer_name: null
+use_slow_tokenizer: false
+model_type: "t5"
+hidden_size: 256
+intermediate_size: 1024
+num_hidden_layers: 4
+num_attention_heads: 4
+projection_dim: 256
+pos_weight: 1.0
+num_channels: 16
+encoder_type: "resnet"

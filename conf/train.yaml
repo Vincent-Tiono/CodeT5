@@ -1,0 +1,16 @@
+defaults:
+  - data: data.yaml
+  - model: model.yaml
+  - trainer: trainer.yaml
+  - logger: logger.yaml
+  - pet: pet.yaml
+  - tuner: tuner.yaml
+  - _self_
+
+debug: false
+exec: false
+seed: 42
+output_dir: null
+eval_only: false
+autotune: false
+task: "String"

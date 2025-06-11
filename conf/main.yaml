@@ -1,0 +1,7 @@
+defaults:
+  - data: data.yaml
+  - model: model.yaml
+  - eval: eval.yaml
+  - _self_
+
+exec: false

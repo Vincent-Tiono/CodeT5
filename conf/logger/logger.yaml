@@ -1,0 +1,5 @@
+project: null
+logdir: null
+log_to: wandb
+log_freq: 4
+log_model: false

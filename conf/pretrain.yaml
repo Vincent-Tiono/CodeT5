@@ -1,0 +1,13 @@
+defaults:
+  - data: pretrain_data.yaml
+  - model: pretrain_model.yaml
+  - trainer: pretrain_trainer.yaml
+  - logger: logger.yaml
+  - _self_
+
+debug: false
+exec: false
+seed: 42
+output_dir: null
+eval_only: false
+task: "string_transformation"

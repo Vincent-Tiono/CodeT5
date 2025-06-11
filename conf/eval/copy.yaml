@@ -1,0 +1,6 @@
+dataset_dir: null
+num_demo: 5
+output_dir: null
+prediction_file: null
+split: test
+train: special_text/dataset/easy_1k/train_program.json

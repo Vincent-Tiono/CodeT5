@@ -1,0 +1,33 @@
+ignore_pad_token_for_loss: true
+dataset_dir: null
+eval_dataset_dir: null
+num_demo: 5
+num_exec: 5
+max_train_sample: null
+max_source_length: 512
+input_prefix: null
+output_prefix: null
+preprocessing_num_workers: 16
+overwrite_cache: false
+max_target_length: 128
+max_io_length: 128
+val_max_target_length: null
+num_beams: 1
+pad_to_max_length: false
+input_column: "inputs"
+output_column: "outputs"
+program_column: "program"
+synthesis_prefix: "Program synthesis"
+execution_prefix: "Program execution"
+execution_dataset_type: "spmi"
+eval_dataset_type: "mpsi"
+delimiter: "|"
+random_demo: false
+generate_on_fly: false
+use_other: false
+max_program_length: 64
+max_input_length: 32
+max_output_length: 59
+min_str_len: 20
+max_str_len: 30
+preload: false

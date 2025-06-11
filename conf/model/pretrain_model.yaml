@@ -1,0 +1,13 @@
+model_name_or_path: 
+from_bert: false
+config_name: null
+tokenizer_name: null
+use_slow_tokenizer: false
+use_similar_dataset: null
+hard_sample_only: false
+hidden_size: 512
+intermediate_size: 2048
+projection_dim: 512
+num_hidden_layers: 12
+num_attention_heads: 8
+num_channels: 8
